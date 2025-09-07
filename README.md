@@ -17,9 +17,15 @@ This shows how ICA can be an effective tool for separating and denoising images 
 
 # Result
 fastICA successfully separated the mixed and noisy images into their independent source components.
-
 Even with Gaussian and log-normal noise, the recovered images preserved the main structures and details of the original sources.
-
 The method demonstrates robustness of ICA for blind source separation and image denoising tasks.
+In the first rwo there were two images (image1 and image2), and random data which represents noise
+Second row represents noisy images with the mixture of image1(img1), image2(img2), and random noise (noise)
+In the third row the recovered image is presented. In the first place image2 is recovered, in the 2nd and 3rd column of 3rd row, image 1 was recovered. 
+
 <img width="500" height="500" alt="download" src="https://github.com/user-attachments/assets/8b5382de-a471-4327-86cf-b34b0076be5d" />
 
+# Resources
+ICA: https://www.cs.helsinki.fi/u/ahyvarin/whatisica.shtml
+Python Package of fastICA: 
+https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.FastICA.html
